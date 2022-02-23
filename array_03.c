@@ -13,7 +13,9 @@ string encrypt(string l, int x) {
     printf("\n"); 
     // total output = string
     printf("safidy: \n1-dercypt\n2-mijanona");
+
     int val = get_int("");
+
     if(val == 1) {
         for (int i = 0; i < x; i++) {
         /* code */
